@@ -435,6 +435,20 @@ const Hero = () => {
             </div>
           </div>
         </div>
+        <div className="bg-white h-[0.01rem] w-full  "></div>
+          <div className="  flex justify-between py-3 ">
+            <div>
+            <div className="skill">
+          <img className="nav-img" src="/src/assets/theskillclub.svg" alt="" />
+          <span className="beta">BETA</span>
+        </div>
+            </div>
+        <div className="flex gap-3">
+          <p>Copyright©2024 theSkillClub. All right reserved.</p>
+          <p>Privacy Policy</p>
+          <p>Terms and Conditions</p>
+        </div>
+          </div>
       </div>
     </div>
   );
