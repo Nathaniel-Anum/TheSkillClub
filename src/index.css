@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:opsz,wght@6..12,600;6..12,700;6..12,900;6..12,1000&display=swap");
 
 @font-face {
-  font-family:"CabinetGrotesk" ;
+  font-family: "CabinetGrotesk";
   src: url("../src/assets/CabinetGrotesk-Regular.woff");
 }
 * {
@@ -228,6 +228,21 @@ input {
   border-radius: 999px;
   cursor: pointer;
 }
+
+.login-btn3 {
+  border: none;
+  background: linear-gradient(
+    to right,
+    #f3f30f,
+    #d6f700,
+    #b5fa00,
+    #8cfd00,
+    #4eff00
+  );
+  padding: 7px 20px !important;
+  border-radius: 999px;
+  cursor: pointer;
+}
 /* End of Hero Page */
 
 /* Start of Second Side of the Landing Page */
@@ -369,25 +384,24 @@ input {
 .fourth-phase {
   background-color: black;
   color: white;
- padding-top: 30px;
- padding-bottom: 200px;
+  padding-top: 30px;
+  padding-bottom: 200px;
 }
 
-.f-writings h2{
+.f-writings h2 {
   font-size: 32px;
   padding: 10px 0;
 }
 
-.f-writing-controller{
+.f-writing-controller {
   padding: 20px 90px;
 }
-.f-p1{
+.f-p1 {
   font-size: 22px;
 }
 .f-p {
   padding: 30px 0;
   font-size: 22px;
-  
 }
 
 .f-grid-container {
@@ -398,7 +412,6 @@ input {
 .f-img-holder {
   /* border: 1px solid red; */
   position: relative;
-  
 }
 
 .f-1-img {

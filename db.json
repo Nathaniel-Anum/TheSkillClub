@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "email": "olivier@mail.com",
+      "password": "$2a$10$/B2635EfhbmTUOSWkNoUYOIcJ3HraUaBhe9Ctn7nRWiJUMdDGL5tK",
+      "id": 1
+    },
+    {
+      "email": "simplebrookes01@gmail.com",
+      "password": "$2a$10$o5XTcnES64tj4jJT8P5M0uR1hTQ9SzPR91OGh/e1leahQ0YoutrqW",
+      "id": 2
+    },
+    {
+      "email": "joshuamartey12@mail.com",
+      "password": "$2a$10$8d.Ya86ML0JSUi18gmni.e8QS3/OTwHWHkKI.UJhk7Omyx0WsGXdm",
+      "name": "Joshua Martey",
+      "company": "Ghana Cocoa Board",
+      "id": 4
+    },
+    {
+      "email": "johnsmith@gmail.com",
+      "password": "$2a$10$dSlhvEfC70uIJcqCLEiZ3ePZYi5NepELKfg/adDiKJC5ooDb8An9G",
+      "id": 5
+    },
+    {
+      "email": "jacobmills@gmail.com",
+      "password": "$2a$10$dSQiKrAX4EJcHNMNBm23e.6es9kqqqrPJeI2ATH9EMxCoPWk6uexi",
+      "name": "Jacob Mills",
+      "company": "GCB Bank",
+      "id": 6
+    },
+    {
+      "email": "nathanieladjei@gmail.com",
+      "password": "$2a$10$ngQV6bku5LYsAP6iRv3xk.pyDUa42nL3Q8x1pBcxMEEacXwiWlnUW",
+      "name": "Nathaniel Adjei",
+      "company": "Fidelity Bank",
+      "id": 7
+    },
+    {
+      "email": "peterpan@gmail.com",
+      "password": "$2a$10$TLzTunfYTPrNHj80yOLsAuZrom3uuQlwXCE0pm7YvV0PUcZCj7n..",
+      "name": "Peter Pan",
+      "company": "Pan and Cooks ",
+      "id": 8
+    },
+    {
+      "email": "janedoe@gmail.com",
+      "password": "$2a$10$FW8Ar5SovLdIFKWyYDUhMeasNV6zwo/mxSVFvDOxs37iwfKg8XYNW",
+      "name": "Jane Doe",
+      "company": "Jane Make Ups",
+      "id": 9
+    },
+    {
+      "email": "johndoe@mail.com",
+      "password": "$2a$10$8k3zpdH36gGPD1hOcPdFJuhUsQ0TObZ5HJGdaAxCM7UWpmPSNloDW",
+      "name": "John doe",
+      "company": "Ghana Cocoa Board",
+      "id": 10
+    }
+  ]
+}
