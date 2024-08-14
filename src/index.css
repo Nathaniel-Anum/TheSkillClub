@@ -44,11 +44,7 @@ nav {
   justify-content: space-between;
 }
 
-.skill {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
+
 
 .beta {
   font-weight: 700;
@@ -113,19 +109,21 @@ a {
   /* border: none; */
   /* background-color: white; */
   background-color: #161816;
-  border: 1px solid rgb(130, 126, 126);
+  border: 2.5px solid rgb(183, 169, 169);
   color: black;
   cursor: pointer;
-  padding: 16px 50px;
+  padding: 8px 20px;
   display: flex;
   align-items: center;
   border-radius: 999px;
   gap: 20px;
+  /* border: 2px solid red; */
 }
 
 .btn-holder {
   display: flex;
   justify-content: center;
+  padding: 20px 0;
 }
 .p-text {
   display: flex;
@@ -133,6 +131,13 @@ a {
   gap: 6px;
   font-size: 17px;
   font-weight: bold;
+  color: white;
+}
+.p-text33 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
   color: white;
 }
 
@@ -253,87 +258,11 @@ input {
   padding-bottom: 150px;
 }
 
-.sdiv {
-  padding: 0 240px;
-}
-
-.s-h3 {
-  text-align: center;
-  font-size: 42px;
-  font-weight: bold;
-}
-
-.s-p {
-  text-align: center;
-  padding-bottom: 40px;
-}
-
-.first {
-  background: white;
-  font-size: 14px;
-}
-
-.second-p {
-  background: white;
-  font-size: 14px;
-}
-
-.third {
-  background: white;
-  font-size: 14px;
-}
-.first-img {
-  width: 100%;
-  height: 170px;
-}
-.second-img {
-  width: 100%;
-  height: 170px;
-}
-.third-img {
-  width: 100%;
-  height: 170px;
-}
-
-.s-card {
-  /* padding: 0px 240px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px; */
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-}
-
-.trying {
-  padding: 20px 40px;
-}
-
-.p-trying {
-  padding: 0px 20px;
-  line-height: 23px;
-}
 /* End of Second Phase */
 
 /*Beginning of Third Phase */
 
-.third-phase {
-  padding: 50px 190px;
-}
 
-.third-container {
-  padding: 50px 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-}
-
-.parent-div {
-  position: relative;
-  z-index: 100;
-}
 .empty-div {
   position: absolute;
   top: 6px;
@@ -346,17 +275,6 @@ input {
   z-index: -10;
 }
 
-.third-h4 {
-  display: flex;
-  justify-content: center;
-  font-size: 60px;
-  padding: 20px 0;
-}
-
-.third-p {
-  font-size: 20px;
-  padding: 12px 0;
-}
 .login-btn3 {
   border: none;
   /* background-color: #c0ea29; */
@@ -375,61 +293,90 @@ input {
   cursor: pointer;
 }
 
-.p3-btn-holder {
-  padding: 20px 10px;
-}
 /* End of Third Phase */
 
 /* Beginning of Fourth Phase */
-.fourth-phase {
-  background-color: black;
-  color: white;
-  padding-top: 30px;
-  padding-bottom: 200px;
-}
 
-.f-writings h2 {
-  font-size: 32px;
-  padding: 10px 0;
-}
 
-.f-writing-controller {
-  padding: 20px 90px;
-}
-.f-p1 {
-  font-size: 22px;
-}
-.f-p {
-  padding: 30px 0;
-  font-size: 22px;
-}
 
-.f-grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
 
-.f-img-holder {
-  /* border: 1px solid red; */
+
+
+
+
+
+
+.navbar {
   position: relative;
+  background-color: #161816;
+  color: white;
+  padding: 1rem;
 }
 
-.f-1-img {
-  position: absolute;
-  border-radius: 10px;
-  top: -64px;
-  left: 200px;
-}
-.f-2-img {
-  position: absolute;
-  top: 224px;
-  z-index: 50;
-  left: 20px;
+.navbar-content {
+  display: flex;
+  justify-content: end;
 }
 
-.f-3-img {
-  position: absolute;
-  z-index: 50;
-  top: 413px;
-  left: 200px;
+.navbar-title {
+  font-size: 1.5rem;
 }
+
+.menu-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  /* display: none; */
+}
+
+.drawer {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  height: 100%;
+  width: 250px;
+  background-color: white;
+  /* background-color: #161816; */
+
+  box-shadow: -2px 0 5px rgba(65, 61, 61, 0.5);
+  transition: right 0.5s ease;
+  padding-top: 60px;
+  overflow-y: auto;
+}
+
+.drawer.open {
+  right: 0;
+}
+
+.drawer ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+}
+
+.drawer li {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  /* border: 2px solid red; */
+}
+
+.drawer a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+.close-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* @media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+} */
