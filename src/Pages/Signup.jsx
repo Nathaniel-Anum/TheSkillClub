@@ -49,22 +49,22 @@ const Signup = () => {
       console.log(user);
   };
   return (
-    <div className="p-14">
-      <div className="grid grid-cols-2 gap-4">
-        <div className="px-[5.8rem] text-center flex flex-col gap-4">
+    <div className="lg:p-14 max-sm:p-0 max-sm:pt-4 md:p-2 md:pt-[15px]">
+      <div className="grid grid-cols-2 gap-4 max-sm:grid-cols-1">
+        <div className="px-[5.8rem] max-sm:px-4 md:px-0 text-center flex flex-col gap-4">
           <Link to="/">
-            <div className="skill justify-center">
+            <div className="skill flex justify-center lg:pb-0 md:pb-[12rem]">
               <img
                 className="nav-img"
                 src="/src/assets/theskillclub-black (1).svg"
                 alt=""
               />
-              <span className="beta">BETA</span>
+              <span className="beta44">BETA</span>
             </div>
           </Link>
           <p className="font-extrabold text-[2rem]">Welcome </p>
 
-          <div className="flex flex-col gap-[2.5rem]">
+          <div className="flex flex-col  gap-[2.5rem]">
             <input
               type="text"
               name=""
@@ -72,7 +72,7 @@ const Signup = () => {
               placeholder="Full Name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className=" border-none bg-white text-black outline p-3 rounded-full "
+              className=" border-none bg-white text-black outline p-3   rounded-full "
             />
             <input
               type="text"
@@ -124,7 +124,7 @@ const Signup = () => {
             </Link>
           </div>
         </div>
-        <div className=" rounded-[3rem] overflow-hidden h-[36rem] ">
+        <div className=" rounded-[3rem] overflow-hidden lg:h-[36rem] max-sm:hidden md:h-[66rem]">
           <img src={login} alt="" className=" object-cover h-full " />
         </div>
       </div>

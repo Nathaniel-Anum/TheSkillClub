@@ -33,28 +33,28 @@ const Login = () => {
       });
   }
   return (
-    <div className="p-14">
-      <div className="grid grid-cols-2 gap-4">
-        <div className=" rounded-[3rem] overflow-hidden h-[33rem] ">
+    <div className="lg:p-14 max-sm:p-4 md:p-4  ">
+      <div className="grid grid-cols-2 gap-4   max-sm:block">
+        <div className=" rounded-[3rem] max-sm:hidden overflow-hidden lg:h-[33rem] md:h-[66rem] ">
           <img src={login} alt="" className=" object-cover h-full " />
         </div>
-        <div className="px-[4.5rem] text-center flex flex-col gap-4">
+        <div className="lg:px-[4.5rem] max-sm:px-0 md:px-0 text-center flex flex-col gap-4">
           <Link to="/">
-            <div className="skill justify-center">
+            <div className="skill flex justify-center max-sm:pb-[4.5rem] md:pb-[10rem] lg:pb-0  pt-6">
               <img
                 className="nav-img"
                 src="/src/assets/theskillclub-black (1).svg"
                 alt=""
               />
-              <span className="beta">BETA</span>
+              <span className="beta44">BETA</span>
             </div>
           </Link>
-          <p className="font-extrabold text-[2.4rem]">Welcome Back</p>
+          <p className="font-extrabold text-[2.4rem] max-sm:text-[2rem]">Welcome Back</p>
           <button className="login-btn2 text-black ">
             Sign In with Google
           </button>
           <p>---------- or ---------- </p>
-          <div className="flex flex-col gap-4">
+          <div className="flex   flex-col gap-4">
             <input
               type="text"
               name=""
